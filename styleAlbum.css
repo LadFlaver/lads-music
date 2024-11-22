@@ -1,0 +1,102 @@
+audio {
+    height: 35px;
+    width: 100%;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #00000000;
+    color: #F5F5F5;
+    text-decoration: none;
+    background-color: #444444;
+}
+audio::-webkit-media-controls-current-time-display {
+    color: #F5F5F5;
+    text-shadow: none;
+}
+audio::-webkit-media-controls-time-remaining-display {
+    color: #F5F5F5;
+    text-shadow: none;
+}
+audio::-webkit-media-controls-enclosure {
+    background-color: #00000000;
+    border-radius: 0;
+}
+h2 {
+    margin-bottom: 10px;
+}
+html {
+    background: url('/resources/EarthMoonRemastered1080.jpg');
+    background-attachment: fixed;
+    background-position: 15%;
+    background-size: cover;
+    color:#F5F5F5;
+    font-family:Arial;
+    height: 100%;
+    padding: 0px;
+}
+.albumCover {
+    height: 200px;
+    width: 200px;
+}
+.albumInfo {
+    border-right-color: #444444;
+    border-right-width: 5px;
+    border-right-style: solid;
+    margin-right: 25px;
+    padding-right: 25px;
+    text-align: center;
+    width: 200px;
+}
+.albumPage {
+    background-color: #333333;
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 25px;
+}
+.genericButton {
+    background-color: #555555;
+    border-radius: 5px;
+    color: #F5F5F5;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    width: 90%;
+}
+.genericButton:hover {
+    background-color: #444444;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+.genericButton:visited {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.songListingEven {
+    background-color: #2C2C2C;
+    display: block;
+    height: fit-content;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.songListingOdd {
+    background-color: #252525;
+    display: block;
+    height: fit-content;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.songList {
+    display: block;
+    width: 100%;
+}
+.songTitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
