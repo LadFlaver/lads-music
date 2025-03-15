@@ -75,8 +75,48 @@ html {
     color: #F5F5F5;
     text-decoration: none;
 }
+.genericButton2 {
+    background-color: #3381F5;
+    border-radius: 5px;
+    color: #F5F5F5;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    width: 90%;
+}
+.genericButton2:hover {
+    background-color: #144080;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+.genericButton2:visited {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.musicPlatformButton {
+    background-color: #FE7601;
+    border-radius: 5px;
+    color: #F5F5F5;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    width: 90%;
+}
+.musicPlatformButton:hover {
+    background-color: #b15200;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+.musicPlatformButton:visited {
+    color: #F5F5F5;
+    text-decoration: none;
+}
 .songListingEven {
-    background-color: #2C2C2C;
+    background-color: #2f2f2f;
     display: block;
     height: fit-content;
     padding: 10px;
@@ -99,4 +139,24 @@ html {
     font-weight: bold;
     margin-bottom: 10px;
     padding-top: 5px;
+}
+.videoPlatformButton {
+    background-color: #FF0000;
+    border-radius: 5px;
+    color: #F5F5F5;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    width: 90%;
+}
+.videoPlatformButton:hover {
+    background-color: #AA0000;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+.videoPlatformButton:visited {
+    color: #F5F5F5;
+    text-decoration: none;
 }
